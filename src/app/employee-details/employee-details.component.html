@@ -1,0 +1,10 @@
+<h2>Employee Details for: {{ employee?.first_name }} {{ employee?.last_name}}</h2>
+<div>
+  <p>Title: {{ employee?.title }}</p>
+  <p>Email: {{ employee?.email }}</p>
+  <p>Hired since: {{ employee?.hiredDate }}</p>
+  <p>Employee id: {{ employee?.id }}</p>
+</div>
+<div class="footer">
+<button class="button"><a [routerLink]="['/employees']">Back</a></button>
+</div>

@@ -1,0 +1,17 @@
+.employee-item{
+  display: flex;
+  border: 1px solid #000000;
+  margin: 3px;
+  padding: 6px;
+}
+
+.name{
+  width: 30%;
+}
+
+.mail{
+  align-self: center;
+  width: 30%;
+  margin-right: 30%;
+}
+

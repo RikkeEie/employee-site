@@ -1,0 +1,6 @@
+<div class="employee-item" (click)="itemClicked()">
+  <p class="name">{{ employee.first_name }} {{ employee.last_name }}</p>
+  <a class="mail" href='mailto: {{ employee.email }}'>{{ employee.email }}</a>
+  <button class="button" (click)="deleteClicked()">Delete employee</button>
+  <!-- <button class="button"><a [routerLink]="['/employee', employee.id]">Employee datails</a></button> -->
+</div>
